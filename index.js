@@ -1,30 +1,30 @@
-const express = require('express')
-const cors = require('cors')
+const express = require("express");
+const cors = require("cors");
 
-const app = express()
-exports.app = app
-app.use(cors())
-app.use(express.json())
+const app = express();
+exports.app = app;
+app.use(cors());
+app.use(express.json());
 
 // Membro Alunos - Importar e mapear rota
-const alunosRouter = require('./routes/alunos')
-app.use(alunosRouter)
-
+const alunosRouter = require("./routes/alunos");
+app.use(alunosRouter);
 
 // Membro Cursos - Importar e mapear rota
 // Membro Funcionarios - Importar e mapear rota
 
-
 // Membro Notas - Importar e mapear rota
-const cursosRouter = require('./routes/cursos')
-app.use(cursosRouter)
-
+const cursosRouter = require("./routes/cursos");
+app.use(cursosRouter);
 
 // Membro Professores - Importar e mapear rota
-const professoresRouter = require('./routes/professores')
-app.use(professoresRouter)
+const professoresRouter = require("./routes/professores");
+app.use(professoresRouter);
 
+// Membro Professores - Importar e mapear rota
+const funcionariosRouter = require("./routes/funcionarios");
+app.use(funcionariosRouter);
 
 app.listen(3000, () => {
-console.log('Server is running on http://localhost:3000')
-})
+  console.log("Server is running on http://localhost:3000");
+});
