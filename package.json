@@ -1,0 +1,26 @@
+{
+  "name": "api-rest-academico",
+  "version": "1.0.0",
+  "description": "Projeto baseado em sistema acadêmico utilizando API-REST e CRUD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocsas/API-REST-ACADEMICO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leocsas/API-REST-ACADEMICO/issues"
+  },
+  "homepage": "https://github.com/leocsas/API-REST-ACADEMICO#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
