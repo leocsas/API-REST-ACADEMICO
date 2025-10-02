@@ -9,15 +9,22 @@ app.use(express.json())
 const alunosRouter = require('./routes/alunos')
 app.use(alunosRouter)
 
+
 // Membro Cursos - Importar e mapear rota
 
+
 // Membro Funcionarios - Importar e mapear rota
+
 
 // Membro Notas - Importar e mapear rota
 const notasRouter = require('./routes/notas')
 app.use(notasRouter)
 
+
 // Membro Professores - Importar e mapear rota
+const professoresRouter = require('./routes/professores')
+app.use(professoresRouter)
+
 
 app.listen(3000, () => {
 console.log('Server is running on http://localhost:3000')
