@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 
 const app = express()
+exports.app = app
 app.use(cors())
 app.use(express.json())
 
@@ -11,14 +12,12 @@ app.use(alunosRouter)
 
 
 // Membro Cursos - Importar e mapear rota
-
-
 // Membro Funcionarios - Importar e mapear rota
 
 
 // Membro Notas - Importar e mapear rota
-const notasRouter = require('./routes/notas')
-app.use(notasRouter)
+const cursosRouter = require('./routes/cursos')
+app.use(cursosRouter)
 
 
 // Membro Professores - Importar e mapear rota
