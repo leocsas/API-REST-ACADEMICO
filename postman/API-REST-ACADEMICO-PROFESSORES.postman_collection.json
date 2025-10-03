@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "a1743898-f50d-4025-a7b6-9a1c1be561bf",
+		"name": "API-REST-ACADEMICO-PROFESSORES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47434548"
+	},
+	"item": [
+		{
+			"name": "CADASTRO DE NOVOS PROFESSORES",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n        \"nome\": \" Marcelo Sousa\",\r\n        \"email\": \"marcelo.professor@gmail.com\",\r\n        \"cpf\": \"22222922222\",\r\n        \"curso\": \"ads\",\r\n        \"disciplina\": \"Engenharia de Software e Métodos Ágeis\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/professores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"professores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PROFESSORES LISTA",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/professores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"professores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LISTAR POR ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/professores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"professores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ATUALIZAR PROFESSOR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"João da Silva\",\r\n  \"email\": \"joaosilva@email.com\",\r\n  \"curso\": \"Matemática\",\r\n  \"disciplina\": \"Geometria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/professores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"professores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETAR PROFESSOR",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"João da Silva\",\r\n  \"email\": \"joaosilva@email.com\",\r\n  \"curso\": \"Matemática\",\r\n  \"disciplina\": \"Geometria\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/professores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"professores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
