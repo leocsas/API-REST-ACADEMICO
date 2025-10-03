@@ -107,11 +107,11 @@ O projeto inclui 5 **collection Postman** com todas as rotas implementadas.
 * Caminho dos arquivos:
 
   ```
-  /documentacao/API-REST-ACADEMICO-ALUNOS.postman_collection.json
-  /documentacao/API-REST-ACADEMICO-CURSOS.postman_collection.json
-  /documentacao/API-REST-ACADEMICO-FUNCIONARIOS.postman_collection.json
-  /documentacao/API-REST-ACADEMICO-NOTAS.postman_collection.json
-  /documentacao/API-REST-ACADEMICO-PROFESSORES.postman_collection.json
+  /postman/API-REST-ACADEMICO-ALUNOS.postman_collection.json
+  /postman/API-REST-ACADEMICO-CURSOS.postman_collection.json
+  /postman/API-REST-ACADEMICO-FUNCIONARIOS.postman_collection.json
+  /postman/API-REST-ACADEMICO-NOTAS.postman_collection.json
+  /postman/API-REST-ACADEMICO-PROFESSORES.postman_collection.json
   ```
 * Para importar no Postman:
 
