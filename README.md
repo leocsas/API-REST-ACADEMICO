@@ -102,12 +102,16 @@ Cada entidade possui as seguintes rotas:
 
 ## 📮 Collection do Postman
 
-O projeto inclui uma **collection Postman** com todas as rotas implementadas.
+O projeto inclui 5 **collection Postman** com todas as rotas implementadas.
 
-* Caminho do arquivo:
+* Caminho dos arquivos:
 
   ```
-  /documentacao/API-REST-ACADEMICO.postman_collection.json
+  /documentacao/API-REST-ACADEMICO-ALUNOS.postman_collection.json
+  /documentacao/API-REST-ACADEMICO-CURSOS.postman_collection.json
+  /documentacao/API-REST-ACADEMICO-FUNCIONARIOS.postman_collection.json
+  /documentacao/API-REST-ACADEMICO-NOTAS.postman_collection.json
+  /documentacao/API-REST-ACADEMICO-PROFESSORES.postman_collection.json
   ```
 * Para importar no Postman:
 
