@@ -162,12 +162,3 @@ O repositório conta com:
 ## ✅ Status
 
 ✔️ Projeto finalizado e pronto para entrega!
-
-```
-
----
-
-Se quiser, posso também gerar o arquivo `.md` para você baixar ou te ajudar a colocar isso direto no repositório.
-
-Deseja ajuda com isso?
-```
